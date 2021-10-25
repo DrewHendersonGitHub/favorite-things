@@ -1,7 +1,6 @@
 $(document).ready(function() {
   $("#mainForm").submit(function(event) {
-    event.preventDefault();
-    
+    event.preventDefault();    
     let anArray = [];
     anArray.push($("input#thing1").val());
     anArray.push($("input#thing2").val());
